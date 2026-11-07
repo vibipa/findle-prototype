@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://USERNAME.github.io/findle-prototype/sitemap.xml
+Sitemap: https://vibipa.github.io/findle-prototype/sitemap.xml
