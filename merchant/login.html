@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Business sign in | Findle</title><meta name="description" content="For verified Findle businesses only."><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="https://vibipa.github.io/findle-prototype/merchant/login.html">
+<link rel="stylesheet" href="https://vibipa.github.io/findle-prototype/findle.css">
+</head><body>
+<header class="top"><a class="logo" href="https://vibipa.github.io/findle-prototype/">Findle</a><nav><a href="https://vibipa.github.io/findle-prototype/deals/angus.html">Deals</a><a href="https://vibipa.github.io/findle-prototype/businesses.html">Businesses</a><a class="signin" href="https://vibipa.github.io/findle-prototype/login.html">Sign in</a></nav></header><main><div class="auth"><h1 id="ah">Business sign in</h1><p class="sub">For verified Findle businesses only.</p>
+<form id="af"><label class="lb">Email<input type="email" required autocomplete="email" placeholder="you@example.com"></label><label class="lb">Password<input type="password" required autocomplete="current-password" minlength="8"></label>
+<button class="btn" type="submit" id="ab">Sign in</button> <p class="s" id="am"></p></form></div>
+<script>(function(){var f=document.getElementById("af"),m=document.getElementById("am"),t=document.getElementById("tg"),c=false;
+f.addEventListener("submit",function(e){e.preventDefault();m.textContent="Prototype only: sign-in is not connected yet."});
+if(t)t.addEventListener("click",function(){c=!c;document.getElementById("nl").style.display=c?"block":"none";document.getElementById("ah").textContent=c?"Create your free account":"Business sign in";document.getElementById("ab").textContent=c?"Create account":"Sign in";t.textContent=c?"I have an account":"Create account"})})();</script></main><footer>Prototype for testing Google search results. Businesses, addresses, phone numbers, prices, distances and deals are samples, not real listings. Food images are illustrations.</footer></body></html>
