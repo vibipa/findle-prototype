@@ -1,8 +1,7 @@
-Findle prototype v2 (Product + Offer for deals, Restaurant/LocalBusiness for businesses)
-
-1. In your findle-prototype repository: Add file > Upload files. Upload everything in this folder, including the new businesses folder and deals.html, replacing the old files.
-2. KEEP google45653dc4ce26c652.html in the repository (do not delete it).
-3. Wait 1-2 minutes, then open https://vibipa.github.io/findle-prototype/deals.html to check it loads.
-4. Rich Results Test: test index.html, deals.html, one deals/ page and one businesses/ page.
-5. Search Console: Request indexing for those pages; resubmit sitemap.xml.
-6. Check results again in 3-7 days.
+Findle prototype v4
+1. GitHub repo findle-prototype > Add file > Upload files. Drag in EVERYTHING from this folder (including the new findle.css, businesses.html, login.html, merchant folder, images). Replace existing files.
+2. Keep google45653dc4ce26c652.html in the repository (it is not in this zip).
+3. Old files style.css and the old deals.html are replaced or no longer used; deals.html now forwards to deals/angus.html.
+4. After 1-2 minutes open https://vibipa.github.io/findle-prototype/ on your phone.
+5. Business sign-in page (not linked anywhere, not in the sitemap): https://vibipa.github.io/findle-prototype/merchant/login.html
+6. Search Console: Request indexing for the home page and deals/angus.html, then resubmit sitemap.xml.
